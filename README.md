@@ -33,7 +33,9 @@ to switch and add persistent wallpapers everytime you log in icewm, you must typ
 vim ~/.icewm/preferences
 ```
 
-then add the following line
+## notice: you can change "vim" to whatever text editor you use.
+
+then paste the following line
 
 ```text
 DesktopBackgroundScaled=1
