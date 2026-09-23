@@ -25,3 +25,23 @@ mkdir -p ~/.icewm/themes
 ```
 
 and you should be able to drag all the themes to the directory
+
+# switching persistent wallpapers in icewm
+to switch and add persistent wallpapers everytime you log in icewm, you must type in the terminal
+
+```bash
+vim ~/.icewm/preferences
+```
+
+then add the following line
+
+```text
+DesktopBackgroundScaled=1
+DesktopBackgroundImage = "~/path/to/wallpaper.jpg"
+```
+
+to reset and add your new wallpaper, you can simply use the same command,
+
+```bash
+icewmbg
+```
